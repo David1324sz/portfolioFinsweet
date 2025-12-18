@@ -1,0 +1,11 @@
+:root {
+    --bg-dark: #232556;
+    --bg-btn: #ffD050;
+    --bg-regular: #592EA9;
+    --bg-dark-gray: #4C4C4C;
+    --bg-medium-gray: #6D6E76;
+
+    --font-color-light: #FFFFFF;
+    --font-color-medium: var(--bg-medium-gray);
+    --font-color-dark: var(--bg-dark);
+}
