@@ -9,3 +9,27 @@
     --font-color-medium: var(--bg-medium-gray);
     --font-color-dark: var(--bg-dark);
 }
+
+.field {
+    width: 90%;
+    max-width: 1282px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--bg-dark);
+}
+
+.btn {
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 16px 48px;
+    color: var(--bg-dark);
+    display: inline-block;
+}
+
+.btn-sb {
+    background-color: var(--font-color-light);
+}
