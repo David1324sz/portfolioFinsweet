@@ -4,7 +4,7 @@
     --bg-regular: #592EA9;
     --bg-dark-gray: #4C4C4C;
     --bg-medium-gray: #6D6E76;
-
+    --bg-btn-hover:#EDC14A;
     --font-color-light: #FFFFFF;
     --font-color-medium: var(--bg-medium-gray);
     --font-color-dark: var(--bg-dark);
@@ -32,4 +32,13 @@ header {
 
 .btn-sb {
     background-color: var(--font-color-light);
+}
+
+.btn-yl {
+    background-color: var(--bg-btn);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-yl:hover {
+    background-color: var(--bg-btn-hover);
 }

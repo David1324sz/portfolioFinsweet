@@ -1,0 +1,63 @@
+.banner {
+  background:
+    radial-gradient(
+      30.56% 76.04% at 74.58% 0%,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(../img/home/home.png);
+  padding: 128px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner__content-box {
+  max-width: 804px;
+}
+
+.banner__posted {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--font-color-light);
+}
+
+.banner__posted b {
+  font-weight: 900;
+}
+
+.banner__posted, 
+.banner__title {
+  margin-bottom: 24px;
+}
+
+.banner__title {
+  font-family: Sen;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: var(--font-color-light);
+}
+
+.banner__content {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 16px;
+  color: var(--font-color-light);
+  max-width: 600px;
+}
+
+.banner__content:last-of-type {
+  margin-bottom: 48px;
+}
+
+.banner__content span {
+  color: var(--bg-btn);
+}
