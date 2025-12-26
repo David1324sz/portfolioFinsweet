@@ -1,5 +1,5 @@
 :root {
-    --bg-dark: #232556;
+    --bg-dark: #232536;
     --bg-btn: #ffD050;
     --bg-regular: #592EA9;
     --bg-dark-gray: #4C4C4C;
@@ -41,4 +41,56 @@ header {
 
 .btn-yl:hover {
     background-color: var(--bg-btn-hover);
+}
+
+.sec-top-space { 
+    margin-top: 128px;
+}
+
+.heading-lr {
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.heading-md {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.heading-sm {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.heading-ml {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.heading-sm,
+.heading-md,
+.heading-lr,
+.heading-ml {
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: var(--bg-dark);
+}
+
+.post__date {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--bg-dark-gray);
+}
+
+.post__descr {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--bg-medium-gray);
 }

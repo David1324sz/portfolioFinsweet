@@ -61,3 +61,29 @@
 .banner__content span {
   color: var(--bg-btn);
 }
+
+.post-prev__box {
+  flex: 0.6;
+}
+
+.heading-sett {
+  margin-bottom: 32px;
+}
+
+.post-box {
+  border: 1px solid #6d6e7626;
+  padding: 32px;
+  
+}
+
+.post-sett {
+  margin-bottom: 16px;
+}
+
+.post__date-color {
+  color: var(--bg-regular);
+}
+
+.post__descr-set {
+  margin-bottom: 16px;
+}
