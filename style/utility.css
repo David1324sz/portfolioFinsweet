@@ -96,3 +96,47 @@ header {
     line-height: 28px;
     color: var(--bg-medium-gray);
 }
+
+.catagory__container {
+    padding-bottom: 128px;
+}
+
+.catagory__set {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.catagory__con-box {
+    gap: 32px;
+}
+
+.category-box {
+    border: 1px solid #6d6e7626;
+    max-width: 296px;
+    padding: 32px;
+    
+}
+
+.category-box-bg {
+    background-color: var(--bg-btn);
+}
+
+.catagory-img {
+    max-width: 48px;
+    background-color: #FBF6EA;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    aspect-ratio: 1;
+}
+
+.img__sett {
+    padding: 12px;
+}
+
+.catagory__title {
+    margin-bottom: 4px;
+}
+
+.catagory__sett {
+    max-width: 232px;
+}
