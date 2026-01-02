@@ -16,6 +16,10 @@
     margin: 0 auto;
 }
 
+.fl {
+    display: flex;
+}
+
 header {
     background-color: var(--bg-dark);
 }
@@ -44,7 +48,7 @@ header {
 }
 
 .sec-top-space { 
-    margin-top: 128px;
+    margin: 128px 0;
 }
 
 .heading-lr {
@@ -72,9 +76,7 @@ header {
 .heading-lr,
 .heading-ml {
     font-family: Sen;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
+    font-weight: 700;   
     letter-spacing: -2px;
     color: var(--bg-dark);
 }
