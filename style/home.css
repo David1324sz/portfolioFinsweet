@@ -66,6 +66,10 @@
   flex: 0.6;
 }
 
+.post-box-con {
+  max-width: 733px;
+}
+
 .heading-sett {
   margin-bottom: 32px;
 }
