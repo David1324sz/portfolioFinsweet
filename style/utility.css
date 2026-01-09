@@ -5,6 +5,8 @@
     --bg-dark-gray: #4C4C4C;
     --bg-medium-gray: #6D6E76;
     --bg-btn-hover:#EDC14A;
+    --bg-card-hover:#FBF6EA;
+    --bg-card-color: #F4F4F4;
     --font-color-light: #FFFFFF;
     --font-color-medium: var(--bg-medium-gray);
     --font-color-dark: var(--bg-dark);
@@ -139,4 +141,142 @@ header {
 
 .catagory__sett {
     max-width: 232px;
+}
+
+.started {
+    padding-bottom: 128px;
+}
+
+.started__container {
+    background-image: url("../img/started/family.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -150px;
+    padding-top: 121px;
+    justify-content: end;
+}
+
+.starder__box {
+    max-width: 706px;
+    padding: 80px;
+    background-color: #FFFFFF;
+}
+
+.starder__subtitle { 
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--bg-dark);
+    margin-bottom: 24px;
+}   
+
+.starder__title,
+.starder__descr {
+    max-width: 546px;
+}
+
+.starder__title {
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: var(--bg-dark);
+    margin-bottom: 16px;
+}
+
+.starder__descr {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: var(--bg-medium-gray);
+    margin-bottom: 32px;
+}
+
+.starder__btn {
+    background-color: var(--bg-btn);
+    transition: background-color 0.3s ease-in 0s;
+}
+
+.starder__btn:hover {
+    background-color: var(--bg-btn-hover);
+}
+
+.autors__container {
+    padding-bottom: 96px;
+}
+
+.autors__title {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.autors__box {
+    gap: 32px;
+    justify-content: center;
+}
+
+.autors__con-box {
+    flex: 1;
+    background-color: var(--bg-card-color);
+    padding: 40px 28px;
+    text-align: center;
+    transition: background-color 0.3s ease-in 0s;
+}
+
+.autors__con-box:hover {
+    background-color: var(--bg-card-hover);
+}
+
+.autors__img {
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.autors__desrc {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--bg-medium-gray);
+    margin-bottom: 20px;
+}
+
+.autors__social {
+    justify-content: center;
+    gap: 16px;
+}
+
+.futered__container {
+    align-items: center;
+}
+
+.futered__container > div {
+    display: flex;
+    flex: 1;
+}
+
+.futered__text-box {
+    margin-right: 87px;
+}
+
+.futered__subtitle {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--bg-medium-gray);
+}
+
+.futered__title {
+    color: var(--bg-medium-gray);
+}
+
+.futered__img {
+    width: 100%;
 }
